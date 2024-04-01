@@ -1,0 +1,37 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 74px;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 4rem;
+}
+
+.contactText h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactDetails div {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 55px;
+  }
+}

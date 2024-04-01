@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Calculator",
+    "imageSrc": "projects/calculator.png",
+    "description": "A stylized calculator.",
+    "skills": ["HTML", "CSS", "React"],
+    "demo": "https://calculatored.netlify.app/",
+    "source": "https://github.com/Fallingstar-0/Calculator"
+  },
+  {
+    "title": "Work In-progress",
+    "imageSrc": "projects/mysterybox.png",
+    "description": "Testing out new projects to improve my skills.",
+    "skills": ["React"],
+    "demo": "https://difftestingprojects.netlify.app/",
+    "source": "https://github.com/Fallingstar-0/Random-Projects"
+  }
+]

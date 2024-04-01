@@ -1,0 +1,59 @@
+[
+  {
+    "role": "Corporate Development Expert",
+    "organisation": "Fantastic Services",
+    "startDate": "April, 2023",
+    "endDate": "Present",
+    "duties": [
+      "Account management for corporate clients",
+      "Driving revenue by re-establishing lost partnerships with lapsed accounts that reach our ideal client persona",
+      "Researching new potential clients that could drive more revenue"
+    ],
+    "skills": ["Sales", "Account management", "Negotiation"],
+    "imageSrc": "history/fantasticservices.png"
+  },
+  {
+    "role": "Content Moderation - Subject Matter Expert",
+    "organisation": "Majorel",
+    "startDate": "June, 2021",
+    "endDate": "April, 2023",
+    "duties": [
+      "Providing knowledge, resources, and information to support moderators while also profiling the moderator",
+      "Delivering disciplinary leadership (fraud prevention,absenteeism management, etc.).",
+      "Coaching, training agents, and conducting briefing sessions."
+    ],
+    "skills": [
+      "Management",
+      "Business analysis",
+      "Leadership",
+      "Proactivity",
+      "Attention to detail",
+      "Collaboration",
+      "Conflict resolution",
+      "Critical thinking",
+      "Decision making"
+    ],
+    "imageSrc": "history/majorel.png"
+  },
+  {
+    "role": "Sales Representative - Technical Advisor",
+    "organisation": "Vodafone",
+    "startDate": "March, 2019",
+    "endDate": "June, 2021",
+    "duties": [
+      "Drive revenue growth by meeting or exceeding sales targets through strategic selling techniques.",
+      "Cultivate strong client relationships, ensuring customer satisfaction and loyalty.",
+      "Conduct market analysis to inform sales strategies,resolving challenges for optimal performance."
+    ],
+    "skills": [
+      "Clear communication",
+      "Listening skills",
+      "Empathy",
+      "Persuasiveness",
+      "Adaptability",
+      "Patience",
+      "Problem-solving"
+    ],
+    "imageSrc": "history/vodafone.png"
+  }
+]
