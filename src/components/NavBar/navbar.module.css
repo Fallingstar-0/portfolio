@@ -1,20 +1,36 @@
 @import "../../vars.css";
 
+.container {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.navbar.active {
+  background-color: #514493;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
 .navbar {
   display: flex;
-  position: relative;
+  background: transparent;
+  position: sticky;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 61px;
+  /* padding: 2rem; */
   z-index: 2;
-  margin: 0 10%;
+  padding: 2.5% 10%;
 }
 
 .title {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 3vw;
+  font-weight: 800;
   text-decoration: none;
   color: var(--color-text);
+  text-shadow: 2px 3px #0d3b5c;
 }
 
 .menu {
@@ -32,20 +48,33 @@
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 2vw;
+  /* color: var(--color-text); */
+  text-shadow: 2px 3px #0d3b5c;
   color: var(--color-text);
+  font-weight: 800;
   text-decoration: none;
 }
 
 @media screen and (max-width: 830px) {
+  .container {
+    background: transparent;
+    background-color: #514493;
+    /* border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem; */
+    position: static;
+  }
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
+  .title {
+    font-size: 35px;
+  }
   .menu {
-    position: absolute;
-    right: 0;
+    position: relative;
     margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
@@ -59,6 +88,9 @@
   }
 
   .menuItems {
+    position: absolute;
+    top: 40px;
+    right: 10px;
     display: none;
     flex-direction: column;
     align-items: center;

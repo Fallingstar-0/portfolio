@@ -1,9 +1,13 @@
 @import "./vars.css";
 
 .App {
+  background-image: url("../assets/hero/pattern.png");
+  background-repeat: repeat;
+  background-size: contain;
   background-color: var(--color-bg);
+  background-blend-mode: multiply;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: url("https://www.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_40965130.htm#query=cool%20wallpaper&position=1&from_view=keyword&track=ais&uuid=01c3fe95-fb19-4e48-9121-be43416a16e3");
+  /* font-size: 2vw; */
 }

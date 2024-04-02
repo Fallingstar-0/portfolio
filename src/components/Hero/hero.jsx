@@ -19,8 +19,6 @@ const Hero = () => {
         alt="Hero Image of me"
         className={styles.heroImg}
       />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
     </section>
   )
 }
