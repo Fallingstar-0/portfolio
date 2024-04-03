@@ -114,3 +114,36 @@
     font-size: clamp(1.25rem, 2vw + 1rem, 3rem);
   }
 }
+
+@media screen and (min-height: 430px) {
+  .container {
+    padding-top: 6rem;
+
+    /* padding-top: -150px; */
+    background-position-x: center;
+  }
+
+  .content {
+    align-items: center;
+    width: 80%;
+  }
+
+  .heroImg {
+    width: clamp(5rem, 30% + 1rem, 20rem);
+    margin-left: 40px;
+  }
+
+  .title {
+    font-size: clamp(2rem, 5vw + 1rem, 3rem);
+  }
+
+  .description {
+    font-size: clamp(1rem, 2vw + 1rem, 1.3rem);
+    color: #12113c;
+    text-shadow: -1px 2px #fff;
+  }
+
+  .contactBtn {
+    font-size: clamp(1rem, 2vw + 1rem, 1.3rem);
+  }
+}
