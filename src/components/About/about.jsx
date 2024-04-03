@@ -7,14 +7,16 @@ const About = () => {
     <section className={styles.container} id="about">
       <h1 className={styles.title}>ABOUT</h1>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="About Image"
-          className={styles.aboutImage}
-        />
+        <div className={styles.aboutImageContainer}>
+          <img
+            src={getImageUrl("about/aboutImage.png")}
+            alt="About Image"
+            className={styles.aboutImage}
+          />
+        </div>
         <div className={styles.aboutItems}>
           <div className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
+            <img src={getImageUrl("about/web-dev.png")} alt="Cursor Icon" />
             <div className={styles.aboutItemText}>
               <h2>Frontend Developer</h2>
               <p>
@@ -24,7 +26,10 @@ const About = () => {
             </div>
           </div>
           <div className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server Icon" />
+            <img
+              src={getImageUrl("about/customer-care.png")}
+              alt="Server Icon"
+            />
             <div className={styles.aboutItemText}>
               <h2>Customer Service</h2>
               <p>

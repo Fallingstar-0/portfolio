@@ -1,13 +1,19 @@
 :root {
   /* Colors */
   --color-text: #fc959d;
+  --color-text-highlight: #c3566a;
   --color-primary: #468ee9;
   --color-secondary: #29438b;
   --color-dark: #0f2e4f;
   --color-bg: #4c326e;
   --color-bg2: #ed6395;
+  --color-bg-dark: #412859;
 
   /* Fonts */
   --font-roboto: "Roboto";
   --font-outfit: "Outfit";
+  --fs-xl: clamp(1.25rem, 1vw + 1rem, 3rem);
+  --fs-800: 2rem;
+  --fs-600: 1.125rem;
+  --fs-400: 1rem;
 }

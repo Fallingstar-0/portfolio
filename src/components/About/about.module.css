@@ -8,45 +8,68 @@
   margin-top: 129px;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #030d1b;
+  /* background-color: var(--color-bg-dark); */
   border-radius: 15px;
-  padding: 73px;
+  /* padding: 73px; */
   color: var(--color-text);
 }
 
 .title {
-  font-size: 35px;
+  font-size: clamp(2rem, 2vw + 1rem, 4rem);
   font-family: var(--font-outfit);
   font-weight: 700;
   line-height: 44.1px;
   letter-spacing: 1.75px;
+  margin-bottom: 20px;
 }
 
 .content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.aboutImageContainer {
+  width: clamp(auto, 16vw + 1rem, 17rem);
+  height: clamp(21rem, 30em, 36rem);
+  background-color: var(--color-bg-dark);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .aboutImage {
-  width: 35%;
+  /* width: clamp(14rem, 16vw + 1rem, 17rem); */
+  margin: 0 auto;
+  border-radius: 50px;
+  width: 14em;
   display: block;
 }
 
 .aboutItems {
+  width: clamp(200rem, 16vw + 1rem, 201rem);
+  height: clamp(30rem, 14vw + 1rem, auto);
+  background-color: var(--color-bg-dark);
+  padding: 20px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 50px;
 }
 
 .aboutItem {
   display: flex;
-  min-height: 128px;
+  /* min-height: 128px; */
   align-items: center;
+  justify-content: flex-start;
+  /* flex-wrap: wrap; */
+  gap: 20px;
   border-radius: 20px;
   background: none;
   background-image: linear-gradient(
     90deg,
-    rgb(255, 255, 255, 0.25) 0%,
+    #c3566a40 0%,
     rgb(255, 255, 255, 0) 75%
   );
   background-size: 0 100%;
@@ -58,31 +81,37 @@
   background-size: 100% 100%;
 }
 
-.skillsContainer div img {
-  width: 50px;
-  height: 50px;
-}
-
 .aboutItemText {
   display: flex;
   flex-direction: column;
-  font-size: 25px;
+
   line-height: 31.5px;
   color: var(--color-text);
 }
 
+.aboutItemText > * {
+  padding: 1.5rem;
+}
+
 .aboutItemText h2 {
+  font-size: clamp(1.5em, 2vw + 0.5rem, 2.5em);
   font-weight: 600;
+  line-height: 120%;
 }
 
 .aboutItemText p {
+  font-size: clamp(1em, 2vw + 0.5rem, 2em);
   font-weight: 400;
+  line-height: 120%;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     background: none;
     padding-inline: 0;
+  }
+  .aboutImageContainer {
+    display: none;
   }
   .aboutImage {
     display: none;
