@@ -122,4 +122,7 @@
   .aboutItem {
     padding-inline: 0;
   }
+  .aboutItemText > * {
+    padding: 0.5rem;
+  }
 }
