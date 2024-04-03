@@ -105,4 +105,8 @@
     color: #6865d4;
     text-shadow: -1px 2px #1a3d52;
   }
+
+  .contactBtn {
+    font-size: 4vw;
+  }
 }
