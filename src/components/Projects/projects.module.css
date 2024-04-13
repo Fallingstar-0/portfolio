@@ -92,3 +92,15 @@
 .links a:hover {
   transform: scale(1.25);
 }
+
+@media screen and (max-width: 830px) {
+  .projects {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

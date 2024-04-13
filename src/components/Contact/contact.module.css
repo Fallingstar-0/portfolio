@@ -54,4 +54,9 @@ a {
     flex-direction: column;
     gap: 55px;
   }
+  a {
+    color: var(--color-text);
+    font-size: clamp(1rem, 1.5vw + 1rem, 2rem);
+    text-decoration: none;
+  }
 }
