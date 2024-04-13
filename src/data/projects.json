@@ -11,7 +11,7 @@
     "title": "Work In-progress",
     "imageSrc": "projects/mysterybox.png",
     "description": "Testing out new projects to improve my skills.",
-    "skills": ["React"],
+    "skills": ["HTML", "CSS", "React"],
     "demo": "https://difftestingprojects.netlify.app/",
     "source": "https://github.com/Fallingstar-0/Random-Projects"
   }

@@ -7,7 +7,7 @@
 }
 
 .container h1 {
-  font-size: 35px;
+  font-size: clamp(2rem, 2vw + 1rem, 4rem);
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -15,10 +15,10 @@
 
 .projects {
   margin-top: 37px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-content: space-around; */
+  gap: 32px;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -29,9 +29,10 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  background: linear-gradient(180deg, var(--color-bg-dark) 0%, #332046 100%);
   padding: 18px 24px;
   min-height: 350px;
+  /* min-width: 500px; */
   flex-wrap: wrap;
   text-align: center;
 }
@@ -41,13 +42,14 @@
 }
 
 .project h2 {
-  font-size: 25px;
+  font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
   font-weight: 500;
+  color: var(--color-text-highlight);
 }
 
 .project p {
   /* width: 70px; */
-  font-size: 15px;
+  font-size: clamp(1rem, 1vw + 1rem, 1.5rem);
   font-weight: 400;
 }
 
@@ -60,10 +62,12 @@
 
 .skills p {
   padding: 5px;
-  font-size: 15px;
+  font-size: clamp(1rem, 1vw + 1rem, 1.5rem);
   font-weight: 400;
-  background-color: var(--color-dark);
+  background-color: var(--color-bg2);
   border-radius: 15px;
+  color: var(--color-bg-dark);
+  font-weight: 800;
 }
 
 .links {
@@ -71,16 +75,17 @@
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 30px;
-  font-size: 15px;
+  font-size: clamp(1rem, 1vw + 1rem, 1.5rem);
   font-weight: 400;
 }
 
 .links a {
-  background-color: var(--color-primary);
+  color: var(--color-bg-dark);
+  font-weight: 800;
+  background-color: var(--color-bg2);
   border-radius: 15px;
   padding: 8px;
   text-decoration: none;
-  color: var(--color-text);
   transition: transform 0.5s;
 }
 

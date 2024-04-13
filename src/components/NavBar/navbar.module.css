@@ -8,7 +8,7 @@
 }
 
 .navbar.active {
-  background-color: #514493;
+  background-color: var(--color-navbar);
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
@@ -23,10 +23,12 @@
   /* padding: 2rem; */
   z-index: 2;
   padding: 2.5% 10%;
+  /* padding-block: 2.5%;
+  padding-left: 10%; */
 }
 
 .title {
-  font-size: clamp(0.5rem, 3vw + 0.8rem, 6rem);
+  font-size: clamp(3rem, 2vw + 1rem, 6rem);
   font-weight: 800;
   text-decoration: none;
   color: var(--color-text);
@@ -35,6 +37,7 @@
 
 .menu {
   display: flex;
+  /* width: 40%; */
 }
 
 .menuBtn {
@@ -48,7 +51,7 @@
 }
 
 .menuItems a {
-  font-size: clamp(0.5rem, 1vw + 1rem, 4rem);
+  font-size: clamp(2rem, 1vw + 1rem, 4rem);
   /* color: var(--color-text); */
   text-shadow: 2px 3px #0d3b5c;
   color: var(--color-text);
@@ -77,6 +80,7 @@
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
+    width: auto;
   }
 
   .menuBtn {

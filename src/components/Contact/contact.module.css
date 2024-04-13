@@ -2,17 +2,22 @@
 
 .container {
   margin-top: 74px;
-  background-color: var(--color-primary);
+  background-color: var(--color-navbar);
   display: flex;
   justify-content: space-around;
   padding: 3rem 4rem;
 }
 
 .contactText h1 {
-  font-size: 35px;
+  color: var(--color-text-highlight);
+  font-size: clamp(3rem, 2vw + 1rem, 6rem);
   font-weight: 700;
 }
 
+.contactText h3 {
+  color: var(--color-text);
+  font-size: clamp(2rem, 1vw + 1rem, 4rem);
+}
 .contactDetails {
   display: flex;
   flex-direction: column;
@@ -22,11 +27,26 @@
 .contactDetails div {
   display: flex;
   gap: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contactDetails div:hover {
+  background-color: var(--color-bg-dark);
+  transform: scale(1.05);
+  transition: transform 0.4s;
 }
 
 a {
-  text-decoration: none;
   color: var(--color-text);
+  font-size: clamp(2rem, 1vw + 1rem, 4rem);
+  text-decoration: none;
+}
+
+.icon {
+  color: var(--color-text-highlight);
+  font-size: clamp(2rem, 1vw + 1rem, 4rem);
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 830px) {

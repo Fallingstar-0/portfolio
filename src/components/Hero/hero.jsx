@@ -10,9 +10,10 @@ const Hero = () => {
         <p className={styles.description}>
           I'm a front-end developer. Reach out if you'd like to learn more!{" "}
         </p>
-        <a href="mailto:syiehya50@gmail.com" className={styles.contactBtn}>
-          Contact me
-        </a>
+
+        <button className={styles.contactBtn}>
+          <a href="mailto:syiehya50@gmail.com">Contact me</a>
+        </button>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
