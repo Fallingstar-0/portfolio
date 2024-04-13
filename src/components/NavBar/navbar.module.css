@@ -88,8 +88,8 @@
 @media screen and (max-width: 830px) {
   .container {
     background: transparent;
-    background-color: #514493;
-    position: static;
+    /* background-color: #514493; */
+    /* position: static; */
   }
   .navbar {
     flex-direction: row;
